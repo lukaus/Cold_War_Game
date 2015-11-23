@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 
 using namespace std;
 
@@ -19,11 +20,14 @@ class Nation
 		double suspicion;
 
 		int silos;
+		vector<int> missiles;
 		int radars;
 		int spies;
 		int forts;
 		int cities;
+		vector<int> population;
 		int bases;
+		vector<int> soldiers;
 		int homeland;
 
 
