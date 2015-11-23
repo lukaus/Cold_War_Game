@@ -1,7 +1,7 @@
 #include "nation.h"
 string Nation::get_name()
 {
-return name;
+	return name;
 }
 
 void Nation::set_name(string n)
@@ -11,7 +11,7 @@ void Nation::set_name(string n)
 
 string Nation::get_nationality()
 {
-return nationality;
+	return nationality;
 }
 
 void Nation::set_nationality(string n)
@@ -21,7 +21,7 @@ void Nation::set_nationality(string n)
 
 string Nation::get_nationality_plural()
 {
-return nationality_plural;
+	return nationality_plural;
 }
 
 void Nation::set_nationality_plural(string n)
@@ -31,7 +31,7 @@ void Nation::set_nationality_plural(string n)
 
 double Nation::get_money()
 {
-return money;
+	return money;
 }
 
 void Nation::set_money(double n)
@@ -41,7 +41,7 @@ void Nation::set_money(double n)
 
 double Nation::get_manpower()
 {
-return manpower;
+	return manpower;
 }
 
 void Nation::set_manpower(double n)
@@ -51,7 +51,7 @@ void Nation::set_manpower(double n)
 
 double Nation::get_happiness()
 {
-return happiness;
+	return happiness;
 }
 
 void Nation::set_happiness(double n)
@@ -91,7 +91,7 @@ void set_suspicion(double n)
 
 int Nation::get_silos()
 {
-return silos;
+	return silos;
 }
 
 void Nation::set_silos(int n)
@@ -101,7 +101,7 @@ void Nation::set_silos(int n)
 
 int Nation::get_radars()
 {
-return radars;
+	return radars;
 }
 
 void Nation::set_radars(int n)
@@ -111,7 +111,7 @@ void Nation::set_radars(int n)
 
 int Nation::get_spies()
 {
-return spies;
+	return spies;
 }
 
 void Nation::set_spies(int n)
@@ -121,7 +121,7 @@ void Nation::set_spies(int n)
 
 int Nation::get_forts()
 {
-return forts;
+	return forts;
 }
 
 void Nation::set_forts(int n)
@@ -131,7 +131,7 @@ void Nation::set_forts(int n)
 
 int Nation::get_cities()
 {
-return cities;
+	return cities;
 }
 
 void Nation::set_cities(int n)
@@ -141,7 +141,7 @@ void Nation::set_cities(int n)
 
 int Nation::get_bases()
 {
-return bases;
+	return bases;
 }
 
 void Nation::set_bases(int n)
@@ -151,7 +151,7 @@ void Nation::set_bases(int n)
 
 int Nation::get_homeland()
 {
-return homeland;
+	return homeland;
 }
 
 void Nation::set_homeland(int n)
