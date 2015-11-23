@@ -24,7 +24,7 @@ class Nation
 		int forts;
 		int cities;
 		int bases;
-		int security;
+		int homeland;
 
 
 	public:
@@ -60,9 +60,9 @@ class Nation
 		void set_cities(int n);
 		int get_bases();
 		void set_bases(int n);
-		int get_security();
-		void set_security(int n);
+		int get_homeland();
+		void set_homeland(int n);
 
 		Nation();
-		Nation(string name, string nationl, string nati_plu, double n, double m, double h, int si, int ra, int sp, int fo, int ci, int ba, int se);
+		Nation(string name, string nationl, string nati_plu, double n, double m, double h, double inte, double sus, double sec, int si, int ra, int sp, int fo, int ci, int ba, int ho);
 };

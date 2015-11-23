@@ -149,14 +149,14 @@ void Nation::set_bases(int n)
 	bases= n;
 }
 
-int Nation::get_security()
+int Nation::get_homeland()
 {
-return security;
+return homeland;
 }
 
-void Nation::set_security(int n)
+void Nation::set_homeland(int n)
 {
-	security= n;
+	homeland = n;
 }
 
 
@@ -166,8 +166,24 @@ Nation::Nation()
 
 }
 
-Nation::Nation(string name, string nationl, string nati_plu, double n, double m, double h, int si, int ra, int sp, int fo, int ci, int ba, int se)
+Nation::Nation(string nam, string nationl, string nati_plu, double r, double m, double h, double inte, double sus, double sec, int si, int ra, int sp, int fo, int ci, int ba, int ho)
 {
-	
-}
+	name = nam;
+	nationality = nationl;
+	nationality_plural = nati_plu;
 
+	money = r;
+	manpower = m;
+	happiness = h;
+	intelligence = inte;
+	suspicion = sus;
+	security = sec;
+
+	silos = si;
+	radars = ra;
+	spies = sp;
+	forts = fo;
+	cities = ci;
+	homeland = ho;
+
+}
